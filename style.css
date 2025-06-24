@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: #eae9e4;
+}
+
+*::selection {
+  background-color: #1c1c1c;
+  color: #eae9e4;
+}
+
+@font-face {
+  font-family: "ivymode-light";
+  src: url("public/fonts/IvyMode-Light.woff2");
+}
+
+@font-face {
+  font-family: "ivymode-regular";
+  src: url("public/fonts/IvyMode-Regular.woff2");
+}
+
+@font-face {
+  font-family: "ivymode-semibold";
+  src: url("public/fonts/IvyMode-SemiBold.woff2");
+}
+
+.noise::before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  content: "";
+  opacity: 0.1;
+  z-index: 1000;
+  pointer-events: none;
+  background: url("public/noise.gif");
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header h1 {
+  font-family: ivymode-semibold;
+  cursor: pointer;
+}
+
+nav {
+  font-family: ivymode-regular;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+
+nav p:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 48px;
+  max-width: 1375px;
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.hero h2 {
+  font-family: ivimode-light;
+  font-weight: 300;
+  margin: 0 auto;
+  max-width: 18.5em;
+  margin-bottom: 16px;
+  line-height: 62px;
+  font-size: calc(1vw + 1.85rem);
+}
+
+.hero h5 {
+  color: #1c1c1c;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero h5 span {
+  color: black;
+  font-weight: bold;
+}
+
+.hero video {
+  position: relative;
+  margin-top: 10vh;
+  margin-bottom: 24px;
+  border-radius: 20px;
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+}
+
+.recuerdos {
+  margin: 15vh;
+}
+
+.carta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 55vw;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.carta img {
+  border-radius: 20px;
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.texto {
+  padding: 20px;
+  max-width: 60%;
+  font-family: ivymode-regular;
+}
+
+.texto h3 {
+  font-family: ivymode-semibold;
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.texto p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Inicio */
+
+/* Fin */

@@ -1,0 +1,60 @@
+¡Claro! Invitar a la gente a compartir sus historias de una forma auténtica y abierta es clave para crear una conexión emocional. Aquí tienes algunas ideas de preguntas o formas de hacer ese llamado a la acción, que puedes usar en tu página o incluso en redes sociales.
+
+### 1. **Llamado informal y cercano:**
+
+"Alberti está llena de rincones especiales que solo aquellos que viven aquí pueden entender. ¿Tienes un lugar en la ciudad que te haya marcado de alguna manera? ¡Comparte tu historia con nosotros!"
+
+### 2. **Preguntas directas:**
+
+* "¿Cuál es tu lugar favorito de Alberti, el que te trae recuerdos y sensaciones únicas?"
+* "¿Tienes una anécdota o historia que ocurra en algún rincón especial de nuestro pueblo?"
+* "¿Qué lugar de Alberti te conecta con el pasado y por qué?"
+* "¿Hay algún sitio en Alberti que solo tú veas de una manera especial? Cuéntanos por qué."
+* "¿Recuerdas un lugar de Alberti donde viviste algo inolvidable? ¡Queremos escuchar tu historia!"
+
+### 3. **Llamado evocador y reflexivo:**
+
+"En cada rincón de Alberti hay historias que esperan ser contadas. ¿Te animas a compartir la tuya? ¿Qué lugar de nuestra ciudad tiene un significado especial para ti? Cuéntanos sobre ese lugar que ha sido testigo de tus momentos más importantes."
+
+### 4. **Invitación creativa y participativa:**
+
+"¡Nos encantaría conocer los secretos de Alberti a través de tus ojos! Comparte con nosotros una foto de tu lugar favorito en el pueblo y acompáñala con una historia que lo haga único. ¿Te animas?"
+
+### 5. **Para invitar a la reflexión sobre el tiempo y el cambio:**
+
+"En cada esquina de Alberti hay recuerdos que se guardan con cariño. ¿Hay un lugar que te conecte con el pasado? ¿Qué ha cambiado en ese lugar desde que lo recuerdas por primera vez? ¡Queremos escuchar tu historia!"
+
+### 6. **Incentivar la participación con una comunidad en mente:**
+
+"Cada rincón de Alberti tiene una historia que contar. La tuya es importante para nosotros. ¿Tienes un lugar que te trae buenos recuerdos? ¡Compártelo con la comunidad de Alberti Recuerda!"
+
+### 7. **Estilo más poético:**
+
+"Alberti es mucho más que un mapa de calles. Es un tejido de recuerdos y emociones. ¿Tienes un lugar en el pueblo que te conecta con tu historia personal? Cuéntanos, ¡nos encantaría conocer tu pedazo de Alberti!"
+
+### 8. **Invitación directa en redes o en el sitio web:**
+
+* "¿Tienes un lugar de Alberti que te traiga nostalgia? ¡Compártelo con nosotros! Déjanos un comentario, una foto o una pequeña historia, y sumemos recuerdos para preservar el alma de nuestro pueblo."
+* "La memoria de Alberti se construye con historias como la tuya. ¿Te gustaría contarnos tu lugar especial?"
+
+### Formato visual sugerido para la llamada:
+
+Si decides crear una sección en la web o una publicación en redes sociales, podrías acompañarlo con un diseño atractivo que invite a participar, tal vez con un formulario sencillo o un "call to action" en forma de un botón que diga: "¡Comparte tu historia aquí!" o "Cuéntanos tu lugar favorito".
+
+También podrías hacer algo como esto en tu página web:
+
+```html
+<section class="compartir-historia">
+  <h3>Tu lugar, tu historia</h3>
+  <p>Alberti está llena de lugares con historias que nos conectan. ¿Tienes un rincón especial que te trae recuerdos? ¡Nos encantaría escuchar tu historia!</p>
+  <button>¡Compártela con nosotros!</button>
+</section>
+```
+
+---
+
+### Tip para generar interacción:
+
+Si quieres aumentar la participación, puedes ofrecer alguna recompensa simbólica, como una mención especial en tu página, o crear una galería en la que las personas puedan ver las historias de los demás. También puedes ofrecer la opción de agregar fotos de los lugares mencionados para darle más vida a la comunidad.
+
+¿Qué te parecen estas ideas? ¿Hay algún estilo en particular que prefieras, más casual, reflexivo o emotivo?
