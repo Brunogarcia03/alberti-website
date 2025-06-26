@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,25 +8,41 @@
   </head>
   <body>
     <header>
-      <h1>Alberti Recuerda</h1>
+      <div>
+        <h1>Alberti Recuerda</h1>
 
-      <nav>
-        <p>Contacto</p>
-        <p>Colaborar</p>
-      </nav>
+        <nav>
+          <p>Contacto</p>
+          <p>Colaborar</p>
+        </nav>
+      </div>
     </header>
 
     <main>
       <section class="hero">
-        <video autoplay loop muted playsinline src="public/video.webm"></video>
-        <h2>
-          Experiencias que reconectan con el pasado, la comunidad, la memoria y
-          la identidad.
-        </h2>
-        <h5>
-          Somos <span>Alberti Recuerda</span>, abocados a la preservación de
-          registros audiovisuales del nuestra ciudad.
-        </h5>
+        <div class="hero-absolute">
+          <div class="hero-video">
+            <video
+              autoplay
+              loop
+              muted
+              playsinline
+              src="public/video.webm"
+            ></video>
+            <h1>Todos tenemos un tesoro, <br />un recuerdo para compartir</h1>
+          </div>
+
+          <div class="hero-text">
+            <h2>
+              Experiencias que reconectan con el pasado, la comunidad, la
+              memoria y la identidad.
+            </h2>
+            <h5>
+              Somos <span>Alberti Recuerda</span>, abocados a la preservación de
+              registros visuales de nuestro pueblo.
+            </h5>
+          </div>
+        </div>
       </section>
 
       <section class="recuerdos">
@@ -46,7 +62,7 @@
           </div>
         </div>
 
-        <div class="carta">
+        <div class="carta carta-reverse">
           <div class="texto">
             <h3>El banco de mi plaza</h3>
             <p>
@@ -60,15 +76,12 @@
           </div>
           <img src="public/images/img-2.jpg" alt="El banco de la plaza" />
         </div>
-
-        <!-- FIN -->
-
-        <!-- ACÁ VAMOS A TRABAJAR -->
-
-        <!-- FIN -->
       </section>
     </main>
 
     <div class="noise"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
