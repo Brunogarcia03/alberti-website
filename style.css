@@ -53,7 +53,7 @@ header {
   left: 0;
   width: 100vw;
   z-index: 100;
-  backdrop-filter: blur(100%);
+  backdrop-filter: blur(4px);
   background-color: rgb(234, 233, 228, 0.2);
 }
 
@@ -106,7 +106,7 @@ nav p:hover {
 }
 
 .hero-video video {
-  width: 60%;
+  width: 50%;
   height: 50%;
   margin-bottom: 10vh;
   border-radius: 20px;
@@ -141,8 +141,7 @@ nav p:hover {
 .hero h2 {
   font-family: ivimode-semibold;
   font-weight: 300;
-  margin: 16px 3vw;
-  line-height: 62px;
+  margin: 16px 10vw;
   font-size: calc(1vw + 1.85rem);
   color: #1c1c1c;
 }
@@ -161,7 +160,7 @@ nav p:hover {
 }
 
 .recuerdos {
-  margin: 1em 5vw 3rem;
+  margin: 124px 5vw 3rem;
 }
 
 .carta {
@@ -206,6 +205,23 @@ nav p:hover {
 @media (max-width: 600px) {
   .carta img {
     width: 100%;
+  }
+
+  .hero h2 {
+    letter-spacing: 1px;
+    line-height: normal;
+  }
+
+  .hero-video video {
+    width: 80%;
+  }
+
+  .hero h5 {
+    margin-bottom: 1vh;
+  }
+
+  .hero h2 {
+    margin-bottom: 0;
   }
 }
 

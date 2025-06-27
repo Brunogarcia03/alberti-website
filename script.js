@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const h5 = document.querySelector(".hero h5");
   const header = document.querySelector("header");
 
+  window.scrollTo(0, 0);
+
   document.body.style.overflow = "hidden";
   document.documentElement.style.overflow = "hidden";
 
